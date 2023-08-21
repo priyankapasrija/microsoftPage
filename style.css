@@ -40,7 +40,7 @@ nav {
 }
 .slider {
   display: flex;
-  aspect-ratio: 13 / 6;
+  aspect-ratio: 16/ 6;
   overflow: scroll;
   scroll-behavior: smooth;
   border-radius: 0.5rem;

@@ -1,5 +1,10 @@
-/* header */
-
+/* navbar */
+nav {
+  background-color: #c0c0c0;
+}
+#searchicon {
+  max-width: 1%;
+}
 /* main */
 
 /* footer */

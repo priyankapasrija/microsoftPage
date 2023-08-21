@@ -12,27 +12,34 @@
 <body>
 <nav>
   <img class="navicon" id="burgermenu" src="./res/img/burgermenu.png" alt="Burger context menu">
-  <img class="navicon" id="searchicon" src="./res/img/search.png" alt="Search icon">
-  <img id="logo" src="./res/img/logonav.png" alt="Microsoft logo © Microsoft Corporation">
-  <div id="navwrapper"> <!-- TODO Investigate usefulness of this div -->
-    <div class="navlink">
-      <a href="#">Michaelsoft 365</a>
-      <a href="#">Teams</a>
-      <a href="#">Windows</a>
-      <a href="#">Smurface</a>
-      <a href="#">Xbox</a>
-      <a href="#">Deals</a>
-      <a href="#">Small Business</a>
-      <a href="#">Support</a>
-      <a href="#">More </a>
-    </div>
+  <div id="searchwrap">
+    <a class="nav_icon_text_wrapper" href="#">Search</a>
+    <img class="navicon" id="searchicon" src="./res/img/search.png" alt="Search icon">
   </div>
-
+  <img id="logo" src="./res/img/logonav.png" alt="Microsoft logo © Microsoft Corporation">
+  <div id="navlink">
+    <a href="#">Michaelsoft 365</a>
+    <a href="#">Teams</a>
+    <a href="#">Windows</a>
+    <a href="#">Smurface</a>
+    <a href="#">Xbox</a>
+    <a href="#">Deals</a>
+    <a href="#">Small Business</a>
+    <a href="#">Support</a>
+    <a href="#">More </a>
     <img class="navicon" id="arrowdown" src="./res/img/arrow_down.png" alt="Arrow pointing down, no stalk">
+  </div>
+  <div id="cartwrap">
+    <a class="nav_icon_text_wrapper" href="#">Cart</a>
     <img class="navicon" src="./res/img/shopping_cart.png" alt="Shopping cart logo">
-    <img class="navicon" src="./res/img/usericon.png" alt="Default User Icon">
+  </div>
+  <div id="userwrap">
+    <a class="nav_icon_text_wrapper" href="#">Sign in</a>
+    <img id="usricon" src="./res/img/usericon.png" alt="Default User Icon">
+  </div>
 </nav>
 <main>
+  <br>
   <div class="iconswithlink">
     <img src="./res/img/icon_win.svg" alt="Windows logo icon">
     <a href="#">Choose your Microsoft 365</a>

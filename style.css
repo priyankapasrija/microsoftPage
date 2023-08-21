@@ -32,7 +32,6 @@ nav {
 }
 .navicon {
   max-height: 23px;
-  color: red;
 }
 .navlink {
   display: none;
@@ -119,7 +118,6 @@ nav {
     display: flex;
     flex-flow: nowrap;
     overflow-x: clip;
-    font-size: 2em;
     align-items: center;
     padding: 16px 8px 10px 8px;
     max-width: fit-content;
@@ -148,12 +146,9 @@ nav {
   height: 0.8rem;
   border-radius: 50%;
   background-color: #000;
-
+}
   .iconswithlink > a {
-    color: #2A62AD
+    color: #2A62AD;
     padding:18px;
-    
-
-  }
-  background-color: #000000;
+    background-color: #000000;
 }

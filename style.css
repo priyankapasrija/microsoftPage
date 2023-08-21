@@ -43,8 +43,75 @@ nav {
   padding: 16px 6px 16px 10px;
 }
 /* main */
-
+*, html {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  .slidesnavig {
+    text-align: center;
+  
+  }
+  
+  .slidesnavig a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+  
+  }
 /* footer */
+.footer {
+    background-color: #ececec;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  
+  .column {
+    flex-basis: 16.66%;
+    padding: 20px;
+    box-sizing: border-box; /* Add this property to include padding and border in the element’s total width */
+  }
+  
+  ul {
+    list-style-type: none;
+    font-size: 11px;
+    color: #616161;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    color: #616161;
+    margin-bottom: 8px;
+  }
+  
+  a {
+    color: #616161;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(–dark);
+    text-decoration: underline;
+  }
+  
+  h4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #616161;
+    margin-top: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .column {
+      flex-basis: 50%; /* Adjust the percentage to make the columns closer */
+      max-width: 50%;
+    }
+  }
 
 @media only screen and (min-width: 859px) {
   .navlink{ /* FIXME Fix margins between links */
@@ -78,5 +145,13 @@ nav {
   width: 0.8rem;
   height: 0.8rem;
   border-radius: 50%;
+  background-color: #000;
+
+  .iconswithlink > a {
+    color: #2A62AD
+    padding:18px;
+    
+
+  }
   background-color: #000000;
 }

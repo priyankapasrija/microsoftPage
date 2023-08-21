@@ -1,9 +1,19 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
 /* navbar */
 nav {
   background-color: #c0c0c0; /* TODO Change color to white */
+  display: flex;
+  justify-content: space-around;
 }
-#searchicon, #shoppingcart {
-  max-width: 1%; /* FIXME Fix this awful "fix" */
+.navicon {
+  max-height: 23px;
+}
+#logo {
+  margin: 0 auto;
 }
 /* main */
 

@@ -1,5 +1,42 @@
-/* header */
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
 
+.slider-wrapper {
+  position: relative;
+  max-width: 90%;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  aspect-ratio: 13 / 6;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  border-radius: 0.5rem;
+}
+.slider img {
+  flex: 1 0 100%;
+}
+
+/* navbar */
+nav {
+  background-color: #c0c0c0; /* TODO Change color to white */
+  display: flex;
+  justify-content: space-around;
+}
+.navicon {
+  max-height: 23px;
+}
+.navlink {
+  display: none;
+}
+#logo {
+  margin: 0 auto;
+}
 /* main */
 *, html {
     padding: 0;
@@ -21,3 +58,23 @@
   
   }
 /* footer */
+
+@media only screen and (min-width: 859px) {
+  .navlink{
+    display: inline-block;
+  }
+}
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.slider-nav a {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background-color: #000;

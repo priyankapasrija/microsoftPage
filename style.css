@@ -1,3 +1,4 @@
+
 .slider-wrapper {
   position: relative;
   max-width: 90%;
@@ -15,6 +16,15 @@
 .slider img {
   flex: 1 0 100%;
 }
+
+/* navbar */
+nav {
+  background-color: #c0c0c0; /* TODO Change color to white */
+}
+#searchicon, #shoppingcart {
+  max-width: 1%; /* FIXME Fix this awful "fix" */
+}
+/* main */
 
 .slider-nav {
   display: flex;

@@ -43,7 +43,15 @@ nav {
 
 @media only screen and (min-width: 859px) {
   .navlink{
-    display: inline-block;
+    display: flex;
+    flex-flow: wrap;
+    overflow: hidden;
+  }
+  #logo {
+    margin: 0 auto 0 0;
+  }
+  #burgermenu {
+    display: none;
   }
 }
 @media only screen and (min-width: 1029px) {

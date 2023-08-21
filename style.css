@@ -12,9 +12,18 @@ nav {
 .navicon {
   max-height: 23px;
 }
+.navlink {
+  display: none;
+}
 #logo {
   margin: 0 auto;
 }
 /* main */
 
 /* footer */
+
+@media only screen and (min-width: 859px) {
+  .navlink{
+    display: inline-block;
+  }
+}

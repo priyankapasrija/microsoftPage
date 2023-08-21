@@ -40,22 +40,13 @@ nav {
 }
 .slider {
   display: flex;
-  aspect-ratio: 16/ 6;
-  overflow: scroll;
+  aspect-ratio: 16 / 6;
+  overflow: hidden;
   scroll-behavior: smooth;
   border-radius: 0.5rem;
 }
 .slider img {
   flex: 1 0 100%;
-}
-.slidesnavig {
-  text-align: center;
-}
-.slidesnavig a {
-  color: black;
-  text-decoration: none;
-  padding: 10px 15px;
-  display: inline-block;
 }
 .slider-nav {
   display: flex;
@@ -80,8 +71,6 @@ nav {
   background-color: #ececec;
   display: flex;
   flex-wrap: wrap;
-  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
 }
 .column {
   flex-basis: 16.66%;
@@ -119,23 +108,36 @@ h4 {
     max-width: 50%;
   }
 }
-
 @media only screen and (min-width: 859px) {
   .navlink {
     /* FIXME Fix margins between links */
     display: flex;
     flex-flow: nowrap;
     overflow-x: clip;
+    justify-content: space-around;
     align-items: center;
     padding: 16px 8px 10px 8px;
-    max-width: fit-content;
+    background-color: beige;
+  }
+  /* #navwrpper {
+    background-color: green;
+    max-width: 75%;
+    margin: 0 75% 0 0;
+  } */
+  #arrowdown {
+    display: none;
   }
   #logo {
     margin: 0;
+    background-color: aqua;
   }
   #burgermenu {
     display: none;
   }
+  nav {
+    justify-content: start;
+    .navicon {order: 3;}
+  }
 }
-@media only screen and (min-width: 1029px) {
-}
+/* @media only screen and (min-width: 1029px) {
+} */

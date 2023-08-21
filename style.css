@@ -1,5 +1,33 @@
-/* header */
+.slider-wrapper {
+  position: relative;
+  max-width: 90%;
+  height: 80vh;
+  margin: 0 auto;
+}
 
-/* main */
+.slider {
+  display: flex;
+  aspect-ratio: 13 / 6;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  border-radius: 0.5rem;
+}
+.slider img {
+  flex: 1 0 100%;
+}
 
-/* footer */
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.slider-nav a {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background-color: #000;
+}

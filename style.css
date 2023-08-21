@@ -58,6 +58,55 @@ nav {
   
   }
 /* footer */
+.footer {
+    background-color: #ececec;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  
+  .column {
+    flex-basis: 16.66%;
+    padding: 20px;
+    box-sizing: border-box; /* Add this property to include padding and border in the element’s total width */
+  }
+  
+  ul {
+    list-style-type: none;
+    font-size: 11px;
+    color: #616161;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    color: #616161;
+    margin-bottom: 8px;
+  }
+  
+  a {
+    color: #616161;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(–dark);
+    text-decoration: underline;
+  }
+  
+  h4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #616161;
+    margin-top: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .column {
+      flex-basis: 50%; /* Adjust the percentage to make the columns closer */
+      max-width: 50%;
+    }
+  }
 
 @media only screen and (min-width: 859px) {
   .navlink{

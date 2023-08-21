@@ -38,7 +38,25 @@ nav {
   margin: 0 auto;
 }
 /* main */
-
+*, html {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  .slidesnavig {
+    text-align: center;
+  
+  }
+  
+  .slidesnavig a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+  
+  }
 /* footer */
 
 @media only screen and (min-width: 859px) {

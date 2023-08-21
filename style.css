@@ -78,3 +78,10 @@ nav {
   height: 0.8rem;
   border-radius: 50%;
   background-color: #000;
+
+  .iconswithlink > a {
+    color: #2A62AD
+    padding:18px;
+    
+
+  }

@@ -27,6 +27,7 @@ nav {
   background-color: #c0c0c0; /* TODO Change color to white */
   display: flex;
   justify-content: space-around;
+  max-height: 54px;
 }
 .navicon {
   max-height: 23px;
@@ -42,13 +43,15 @@ nav {
 /* footer */
 
 @media only screen and (min-width: 859px) {
-  .navlink{
+  .navlink{ /* FIXME Fix margins between links */
     display: flex;
-    flex-flow: wrap;
+    flex-flow: nowrap;
     overflow: hidden;
+    font-size: 2em;
+    align-items: center;
   }
   #logo {
-    margin: 0 auto 0 0;
+    margin: 0;
   }
   #burgermenu {
     display: none;

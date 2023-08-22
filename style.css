@@ -96,14 +96,14 @@ padding: 18px;
 }
 .first4littlephotos{
   min-width: 100%;
-  background: red;
+  /* background: red; Uncomment this line for debug */
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
 }
 .img-group{
-  background: green;
+  /* background: green; Uncomment this line for debug */
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;

@@ -127,7 +127,7 @@ h4 {
     #cartwrap {order: 2};
     #userwrap {order: 3};
   }
-  .nav_icon_text_wrapper {
+  .nav_icon_text_wrapper { /* Yup I got tired of naming. -Mochi */
     display: inline;
   }
   #navlink {

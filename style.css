@@ -68,8 +68,16 @@ nav {
   background-color: #000;
 }
 .iconswithlink > a {
+color: #2a62ad;
+padding: 18px;
+}
+.firstsmallfotoslink {
   color: #2a62ad;
-  padding: 18px;
+}  
+.second4littlephotos {
+  color: #2a62ad;
+}
+
 }
 /* footer */
 .footer {

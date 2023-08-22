@@ -64,7 +64,6 @@ nav {
   .navlink {
     display: inline-block;
   }
-=======
 .slider-wrapper {
   position: relative;
   max-width: 90%;
@@ -245,4 +244,4 @@ h4 {
 }
 /* @media only screen and (min-width: 1029px) {
 } */
-
+}

@@ -38,29 +38,36 @@ nav {
   margin: 0 auto;
 }
 /* main */
-*, html {
-    padding: 0;
-    border: 0;
-    margin: 0;
-    display: inline-block;
-  }
-  
-  .slidesnavig {
-    text-align: center;
-  
-  }
-  
-  .slidesnavig a {
-    color: black;
-    text-decoration: none;
-    padding: 10px 15px;
-    display: inline-block;
-  
-  }
+*,
+html {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.slidesnavig {
+  text-align: center;
+}
+
+.svg-wraper{
+  max-width: 2rem;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.slidesnavig a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+}
 /* footer */
 
 @media only screen and (min-width: 859px) {
-  .navlink{
+  .navlink {
     display: inline-block;
   }
 }
@@ -78,11 +85,63 @@ nav {
   height: 0.8rem;
   border-radius: 50%;
   background-color: #000;
-  }
+}
 
-  .iconswithlink > a {
-    color: #2A62AD;
-    padding:18px;
-    
+.iconswithlink{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
 
-  }
+.iconswithlink > a {
+  color: #2a62ad;
+  padding: 18px;
+}
+
+.firstsmallfotoslink {
+  color: #2a62ad;
+}
+.first4littlephotos{
+  min-width: 100%;
+  background: red;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.img-group{
+  background: green;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.second4littlephotos {
+  color: #2a62ad;
+}
+.poweryourdreams-final-box{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 20em;
+}
+
+.poweryourdreams-left-box{
+  min-width: 50%;
+  min-height: 20em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: center;
+}
+.poweryourdreams-left-box > p{
+min-height: 40%;
+}
+.poweryourdreams-right-box{
+  max-width: 40%;
+}
+.poweryourdreams-right-box img{
+  max-width: 100%;
+}
